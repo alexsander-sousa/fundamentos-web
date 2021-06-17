@@ -1,0 +1,73 @@
+/* Estilos da página index.html */
+
+#menuHome {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color:#EDEDED00;
+    list-style:none;
+}
+#menuHome li { 
+    display: inline-flex; 
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+#menuHome li a {
+    padding: 2px 10px;
+    display: inline;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menuHome ul li a:hover {
+    background-color:#404B4D;
+    color: #ffffff;
+    border-bottom:3px solid #409299;
+}
+
+.center {
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    background-color: #93DFE6;
+}
+
+/* Estilos da página contato.html */
+#menuContato {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color:#EDEDED00;
+    list-style:none;
+}
+#menuContato li { 
+    display: inline-flex; 
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+#menuContato li a {
+    padding: 2px 10px;
+    display: inline;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+#menuContato ul li a:hover {
+    background-color:#404B4D;
+    color: #ffffff;
+    border-bottom:3px solid #409299;
+}
